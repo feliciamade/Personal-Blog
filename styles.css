@@ -8,7 +8,7 @@ body {
     padding:0;
     color:rgb(126, 72, 72);
     font-family: "Poppins", serif;
-    background-color: rgb(255, 250, 249);
+    background-color: rgb(255, 248, 247);
 }
 
 .blog {
@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-    color: rgb(146, 66, 54);
+    color: rgb(222, 77, 66);
 }
 
 
@@ -86,8 +86,8 @@ p {
     flex-direction: row;
     gap:10px;
     color:rgb(126, 72, 72);
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 22px;
+    margin-top:15px;
 }
 
 button {
@@ -119,6 +119,12 @@ margin-right: 10px;
     color:rgb(126, 72, 72);
     font-weight: 500;
     border-radius: 20px; }
+
+.tags {
+    margin-top:10px;
+}
+
+
 
     .a {
         background-color: rgb(102, 203, 71);
