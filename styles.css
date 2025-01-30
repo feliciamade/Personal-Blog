@@ -1,8 +1,7 @@
 body {
     height:100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
     font-family: sans-serif;
     margin:0;
     padding:0;
@@ -18,8 +17,7 @@ body {
     flex-direction: row;
     align-items:center;
     justify-content: center;
-    margin:50px;
-    padding:80px;
+    padding:40px;
     border-radius: 10px;
 }
 
@@ -74,12 +72,13 @@ p {
  
 
 .post{
-  
-    padding:10px;
-    margin-bottom:10px;
+
+    padding: 20px;
+    margin: 5px;
+    height: auto;
     background-color: rgb(255, 244, 247);
-    padding:20px;
     border-radius: 10px;
+    align-items: start;
 }
 
 .socialmedia {
@@ -103,6 +102,17 @@ button {
 
 main {
     width:70%;
+    height:100vh;
+    
+}
+
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px;
+    align-items: stretch;
+    align-items: start;
 }
 
 .tags {
@@ -140,4 +150,14 @@ margin-right: 10px;
     .c {
         background-color: rgb(255, 140, 46);
         color:white;
+    }
+
+
+    .post img {
+    
+    width: 100%;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 10px; 
+
     }
