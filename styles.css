@@ -32,10 +32,11 @@ aside {
     display: flex;
     flex-direction: column;
     gap:5px;
+    background-color: rgb(254, 246, 241);
 }
 
 .profile {
-    background-color: rgb(254, 247, 246);
+    background-color: rgb(255, 255, 255);
     width:190px;
     height:190px;
     border-radius:50%;
@@ -76,7 +77,7 @@ p {
   
     padding:10px;
     margin-bottom:10px;
-    background-color: rgb(254, 247, 246);
+    background-color: rgb(254, 246, 241);
     padding:20px;
     border-radius: 10px;
 }
