@@ -35,7 +35,7 @@ aside {
 }
 
 .profile {
-    background-color: rgb(255, 236, 233);
+    background-color: rgb(254, 247, 246);
     width:190px;
     height:190px;
     border-radius:50%;
@@ -76,7 +76,7 @@ p {
   
     padding:10px;
     margin-bottom:10px;
-    background-color: rgb(255, 241, 239);
+    background-color: rgb(254, 247, 246);
     padding:20px;
     border-radius: 10px;
 }
@@ -94,7 +94,7 @@ button {
 
     padding:15px;
     border: none;
-    background-color: rgb(255, 241, 239);
+    background-color: rgb(254, 247, 246);
     color:rgb(126, 72, 72);
     border-radius:40px;
     font-weight:600;
