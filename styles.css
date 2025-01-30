@@ -27,12 +27,12 @@ aside {
 
     padding:20px;
     width:200px;
-    margin-right:30px;
+    margin-right:20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap:5px;
-    background-color: rgb(254, 246, 241);
+    background-color: rgb(255, 244, 247);
 }
 
 .profile {
@@ -77,7 +77,7 @@ p {
   
     padding:10px;
     margin-bottom:10px;
-    background-color: rgb(254, 246, 241);
+    background-color: rgb(255, 244, 247);
     padding:20px;
     border-radius: 10px;
 }
