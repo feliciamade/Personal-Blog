@@ -14,8 +14,8 @@ body {
   
     display:flex;
     flex:1;
+    align-items: flex-start;
     flex-direction: row;
-    align-items:center;
     justify-content: center;
     padding:40px;
     border-radius: 10px;
@@ -31,7 +31,9 @@ aside {
     flex-direction: column;
     gap:5px;
     background-color: rgb(255, 244, 247);
+
 }
+
 
 .profile {
     background-color: rgb(255, 255, 255);
@@ -98,6 +100,7 @@ button {
     color:white;
     border-radius:40px;
     font-weight:600;
+    margin-top: 20px; 
 }
 
 main {
@@ -108,11 +111,13 @@ main {
 
 
 .posts {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 10px;
-    align-items: stretch;
-    align-items: start;
+    column-count: 3;
+    column-gap: 10px;
+}
+
+.posts .post {
+    break-inside: avoid;
+    margin-bottom: 20px;
 }
 
 .tags {
