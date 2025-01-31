@@ -17,7 +17,7 @@ body {
     align-items: flex-start;
     flex-direction: row;
     justify-content: center;
-    padding:40px;
+    padding:20px;
     border-radius: 10px;
 }
 
@@ -31,6 +31,8 @@ aside {
     flex-direction: column;
     gap:5px;
     background-color: rgb(255, 244, 247);
+    text-align: center;
+    align-items: center;
 
 }
 
@@ -81,7 +83,12 @@ p {
     background-color: rgb(255, 244, 247);
     border-radius: 10px;
     align-items: start;
+    transition: transform 0.3s ease-in-out;
 }
+
+
+.post:hover {
+    transform: translateY(-5px); }
 
 .socialmedia {
     display:flex;
@@ -96,11 +103,11 @@ button {
 
     padding:15px;
     border: none;
-    background-color: rgb(255, 98, 130);
+    background-color: rgb(255, 98, 163);
     color:white;
     border-radius:40px;
     font-weight:600;
-    margin-top: 20px; 
+    margin-top: 5px; 
 }
 
 main {
@@ -113,6 +120,7 @@ main {
 .posts {
     column-count: 3;
     column-gap: 10px;
+
 }
 
 .posts .post {
@@ -148,7 +156,7 @@ margin-right: 10px;
     }
 
     .b {
-        background-color: rgb(255, 98, 130);
+        background-color: rgb(255, 98, 163);
         color:white;
     }
 
@@ -166,3 +174,26 @@ margin-right: 10px;
     border-radius: 10px; 
 
     }
+
+
+
+    .profile img {
+    
+        width: 100%;
+        max-height: auto;
+        object-fit: cover;
+    
+        }
+    
+
+
+        .highlight {
+            background-color: rgb(255, 207, 245);
+            color: black; 
+            padding: 2px 4px; 
+            border-radius: 3px;
+        cursor: pointer; }
+
+        @media screen {
+            
+        }
