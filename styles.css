@@ -5,17 +5,31 @@ body {
     font-family: sans-serif;
     margin:0;
     padding:0;
-    color:rgb(126, 72, 72);
+    color:rgb(83, 71, 94);
     font-family: "Poppins", serif;
     background-color: white;
 }
 
+header {
+    width:40%;
+    display: flex;
+    gap:5px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height:150px;
+}
+
+p {
+    color:rgb(118, 103, 132);
+}
 .blog {
   
     display:flex;
     flex:1;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     border-radius: 10px;
     align-items: center;
@@ -54,29 +68,36 @@ aside {
 h3{
     margin:2px;
     padding:0;
+    font-weight: 500;
+}
+
+h1 {
+    margin:0px;
+    font-weight: 500;
 }
 
 h2    {
     margin:0;
     padding:0;
+    font-weight: 500;
 }
 
 a {
     text-decoration: none;
     color:inherit;
-    font-size: 12.5px;
-    color: rgb(203, 108, 93);
+    font-size: 11px;
+    color:rgb(83, 71, 94);
 }
 
 a:hover {
-    color: rgb(222, 77, 66);
+    color:rgb(83, 71, 94);
 }
 
 
 p {
     margin:0px;
     padding:0;
-    font-size: 12.6px;
+    font-size: 11px;
 
 }
  
@@ -86,10 +107,11 @@ p {
     padding: 20px;
     margin: 5px;
     height: auto;
-    background-color: rgb(254, 241, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     align-items: start;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -140,7 +162,7 @@ main {
     display:flex;
 
 }
-.a, .b, .c {
+.a, .b, .c, .d {
 
 margin-right: 10px;
     padding: 5px 10px;
@@ -158,17 +180,23 @@ margin-right: 10px;
 
 
     .a {
-        background-color: rgb(102, 203, 71);
+        background-color: rgba(172, 115, 210, 0.573);
         color:white;
     }
 
     .b {
-        background-color: rgb(255, 98, 163);
+        background-color: #80aaff80;
         color:white;
     }
 
-    .c {
+    .d {
         background-color: rgb(255, 140, 46);
+        color:white;
+    }
+
+    
+    .c {
+        background-color: rgba(255, 170, 205, 0.58);
         color:white;
     }
 
@@ -196,13 +224,25 @@ margin-right: 10px;
     
 
 
-        .highlight {
-            background-color: rgb(255, 210, 245);
+        .highlights {
+            background-color: rgba(255, 227, 249, 0.55);
             color: black; 
             padding: 2px 4px; 
             border-radius: 3px;
         cursor: pointer; }
 
-        @media screen {
-            
+        .hero {
+            display: flex;
+            flex-direction: row;
+            flex:2;
+            gap:20px;
+            justify-content: space-evenly;
+
+        }
+
+        .hero img {
+            width:100%;
+            height:auto;
+            display:block;
+            border-radius: 10px;
         }
